@@ -197,3 +197,36 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* about page css */
+
+#topImage {
+    text-align: center;
+}
+#about {
+    margin-bottom: 2%;
+}
+
+#firstBlock {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width:100%;
+    
+    
+}
+ 
+#child1  img{
+    width:38%
+}
+#child2 img{
+    width:38%
+}
+
+#child1  {
+    width:50%
+}
+#child2 {
+    width:50%
+}
+
