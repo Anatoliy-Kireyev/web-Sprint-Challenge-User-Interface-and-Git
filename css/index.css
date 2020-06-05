@@ -53,8 +53,9 @@ table {
 
  .buttons {
     display: flex;
-    justify-content: space-around;
-    
+    justify-content: space-evenly;
+    width:50%;
+    margin:0 auto;
     margin-bottom: 2%;
     margin: 2%;
     
@@ -73,34 +74,34 @@ table {
  }
 
  #box1 {
-     background: darkcyan;
+     background: teal;
  }
  #box2 {
-    background: orange;
+    background: gold;
 }
 #box3 {
     background: cadetblue
 }
 #box4 {
-    background: darksalmon;
+    background: coral;
 }
 #box5 {
-    background: red;
+    background: crimson;
 }
 #box6 {
-    background:green;
+    background:forestgreen;
 }
 #box7 {
-    background: purple;
+    background: darkorchid;
 }
 #box8 {
-    background: pink;
+    background: hotpink;
 }
 #box9 {
-    background: darkblue;
+    background: indigo;
 }
 #box10 {
-    background: lightblue;
+    background: dodgerblue;
 
 }
 html, body {
