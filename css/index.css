@@ -53,17 +53,56 @@ table {
 
  .buttons {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     
-    margin: auto;
+    margin-bottom: 2%;
+    margin: 2%;
+    
+    
+    
     
  }
 
  .buttons a {
-    font-size: 20px;
+    font-size: 15px;
     color: black;
     text-decoration: none;
+    
+    
+    
  }
+
+ #box1 {
+     background: darkcyan;
+ }
+ #box2 {
+    background: orange;
+}
+#box3 {
+    background: cadetblue
+}
+#box4 {
+    background: darksalmon;
+}
+#box5 {
+    background: red;
+}
+#box6 {
+    background:green;
+}
+#box7 {
+    background: purple;
+}
+#box8 {
+    background: pink;
+}
+#box9 {
+    background: darkblue;
+}
+#box10 {
+    background: lightblue;
+
+}
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
