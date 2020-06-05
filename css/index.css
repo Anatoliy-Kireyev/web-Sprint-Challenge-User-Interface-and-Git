@@ -222,17 +222,17 @@ footer nav a {
 }
  
 #child1  img{
-    width:38%
+    width:85%
 }
 #child2 img{
-    width:38%
+    width:85%
 }
 
 #child1  {
-    width:50%
+    width:100%
 }
 #child2 {
-    width:50%
+    width:100%
 }
 
 #secondBlock {
@@ -244,32 +244,46 @@ footer nav a {
 }
  
 #child3  img{
-    width:38%
+    width:85%
 }
 #child4 img{
-    width:38%
+    width:85%
 }
 
 #child3  {
-    width:50%
+    width:100%
 }
 #child4 {
-    width:50%
+    width:100%
 }
 
 #BigBlock a {
-    color:black;
-    text-decoration: none;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
     padding: 1%;
-    background-color: burlywood;
-    border-radius: 12px;
-    border-color: black;
+    margin-bottom: 2%;
+    font-size: 16px;
+    cursor: pointer;
+    font-size:16px;
+    text-decoration: none;
+}
+
+#BigBlock p {
+    font-size:14px;
+    
 }
 
 header {
     display:flex;
     flex-direction: column;
     justify-content: center;
-    width: 100%;
+    
     
 }
+
+nav a {
+ align-items: center;   
+ margin:0 auto;
+}
+
