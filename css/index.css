@@ -54,7 +54,7 @@ table {
  .buttons {
     display: flex;
     justify-content: space-evenly;
-    width:50%;
+    
     margin:0 auto;
     margin-bottom: 2%;
     margin: 2%;
@@ -282,8 +282,11 @@ header {
     
 }
 
-nav a {
+nav  {
  align-items: center;   
- margin:0 auto;
-}
+ text-align: center;
 
+}
+ nav a{
+     margin: 0 10%;
+ }
